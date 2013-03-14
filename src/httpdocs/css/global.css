@@ -1,0 +1,88 @@
+/*
+	File Overview:	Global SCSS
+	Author:			Michael Bester
+	Description:	Includes all styles for primary styles for the site.
+*/
+/*
+	File Overview:	Base scss definitions
+	Author:			Michael Bester
+*/
+/* Compass global imports */
+/* Configure for target Browser Set
+   Chrome, IE8+
+============================================*/
+/* Global variables */
+/*
+	File Overview:	Basic structural styles.
+	Author:			Michael Bester
+*/
+/* line 6, ../../scss/partials/_structure.scss */
+html {
+  min-height: 100%;
+  margin-bottom: 1px;
+}
+
+/* line 11, ../../scss/partials/_structure.scss */
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: #f2f2f2;
+}
+
+/* line 16, ../../scss/partials/_structure.scss */
+.group {
+  *zoom: 1;
+}
+/* line 38, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*
+	File Overview:	Basic type styles.
+	Author:			Michael Bester
+*/
+/* line 61, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 100%;
+}
+
+/* line 64, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+/* line 8, ../../scss/partials/_typography.scss */
+body {
+  color: #2a2a2a;
+  font-family: Helvetica, "Lucida Grande", sans-serif;
+  font-weight: 500;
+}
+
+/* line 14, ../../scss/partials/_typography.scss */
+h1 {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+/* line 18, ../../scss/partials/_typography.scss */
+h2 {
+  font-size: 1.375em;
+  line-height: 2.18182em;
+}
+
+/* line 22, ../../scss/partials/_typography.scss */
+h3 {
+  font-size: 1.25em;
+  line-height: 1.2em;
+}
+
+/* line 27, ../../scss/partials/_typography.scss */
+h4 {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+}

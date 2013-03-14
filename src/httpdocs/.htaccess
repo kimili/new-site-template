@@ -1,0 +1,17 @@
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+</IfModule>
+
+# Turn on gzip
+SetOutputFilter DEFLATE
+
+# Set etags
+FileETag none
+
+# Turn on caching
+<FilesMatch "\.(jpg|jpeg|png|gif|js|css|swf)$">
+	Header set Cache-Control "public"
+	Header set Expires "Thu, 1 Jan 2020 00:00:00 GMT"
+</FilesMatch>
